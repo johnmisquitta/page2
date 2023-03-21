@@ -1,0 +1,31 @@
+.firstDiv{
+  color: blue;
+}
+/* . is used for classes */
+.secondDiv{
+  color: red;
+}
+/* # is used for ids */
+#singledout{
+  color: green;
+  text-decoration:overline;
+}
+
+/*  * is used to select all element  it will not override ids but everything else*/
+*{
+  /* color: black */
+}
+/* any ul around h3 will be effected */
+h3+ul{
+  border: 4px dotted purple;
+}
+
+/* target all anchor tag in list */
+li a{
+  color: red;
+}
+
+li a[href="https://www.npr.org"]{
+  color: orange;
+  border: 2px solid yellow;
+}
